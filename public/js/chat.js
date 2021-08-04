@@ -54,7 +54,7 @@ window.onload = function () {
       })
       .here(users => {
  
-        let result = users.filter(user => user.id != authUser.id);
+        let result = users.filter(us er => user.id != authUser.id);
  
           if(result.length > 0)
             chatStatus.className = 'chatStatus online';
